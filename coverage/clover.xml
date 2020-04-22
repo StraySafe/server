@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1587555640081" clover="3.2.0">
+  <project timestamp="1587555640081" name="All files">
+    <metrics statements="262" coveredstatements="253" conditionals="58" coveredconditionals="43" methods="69" coveredmethods="69" elements="389" coveredelements="365" complexity="0" loc="262" ncloc="262" packages="7" files="21" classes="21"/>
+    <package name="server">
+      <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="app.js" path="/home/prmzk/Documents/Hacktiv/Phase_3/final_project/server/app.js">
+        <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="server.config">
+      <metrics statements="6" coveredstatements="4" conditionals="4" coveredconditionals="2" methods="0" coveredmethods="0"/>
+      <file name="config.js" path="/home/prmzk/Documents/Hacktiv/Phase_3/final_project/server/config/config.js">
+        <metrics statements="6" coveredstatements="4" conditionals="4" coveredconditionals="2" methods="0" coveredmethods="0"/>
+        <line num="1" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="3" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="server.controllers">
+      <metrics statements="87" coveredstatements="86" conditionals="14" coveredconditionals="12" methods="41" coveredmethods="41"/>
+      <file name="petController.js" path="/home/prmzk/Documents/Hacktiv/Phase_3/final_project/server/controllers/petController.js">
+        <metrics statements="38" coveredstatements="37" conditionals="6" coveredconditionals="4" methods="16" coveredmethods="16"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="32" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="44" count="2" type="stmt"/>
+        <line num="46" count="2" type="stmt"/>
+        <line num="47" count="2" type="stmt"/>
+        <line num="56" count="2" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="67" count="1" type="stmt"/>
+        <line num="68" count="1" type="stmt"/>
+        <line num="73" count="2" type="stmt"/>
+        <line num="74" count="2" type="stmt"/>
+        <line num="75" count="2" type="stmt"/>
+        <line num="83" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="84" count="2" type="stmt"/>
+        <line num="96" count="1" type="stmt"/>
+        <line num="98" count="1" type="stmt"/>
+        <line num="99" count="1" type="stmt"/>
+        <line num="105" count="1" type="stmt"/>
+        <line num="106" count="1" type="stmt"/>
+        <line num="109" count="1" type="stmt"/>
+        <line num="116" count="1" type="stmt"/>
+        <line num="122" count="1" type="stmt"/>
+        <line num="128" count="1" type="stmt"/>
+        <line num="129" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="130" count="1" type="stmt"/>
+        <line num="136" count="0" type="stmt"/>
+        <line num="140" count="1" type="stmt"/>
+        <line num="145" count="3" type="stmt"/>
+      </file>
+      <file name="threadController.js" path="/home/prmzk/Documents/Hacktiv/Phase_3/final_project/server/controllers/threadController.js">
+        <metrics statements="26" coveredstatements="26" conditionals="2" coveredconditionals="2" methods="18" coveredmethods="18"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="6" count="14" type="stmt"/>
+        <line num="16" count="14" type="stmt"/>
+        <line num="18" count="11" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="46" count="2" type="stmt"/>
+        <line num="58" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="63" count="1" type="stmt"/>
+        <line num="74" count="3" type="stmt"/>
+        <line num="82" count="3" type="stmt"/>
+        <line num="88" count="1" type="stmt"/>
+        <line num="94" count="1" type="stmt"/>
+        <line num="102" count="1" type="stmt"/>
+        <line num="108" count="1" type="stmt"/>
+        <line num="116" count="1" type="stmt"/>
+        <line num="122" count="1" type="stmt"/>
+        <line num="130" count="1" type="stmt"/>
+        <line num="136" count="1" type="stmt"/>
+        <line num="142" count="1" type="stmt"/>
+        <line num="148" count="2" type="stmt"/>
+        <line num="154" count="2" type="stmt"/>
+        <line num="156" count="1" type="stmt"/>
+        <line num="163" count="3" type="stmt"/>
+      </file>
+      <file name="userController.js" path="/home/prmzk/Documents/Hacktiv/Phase_3/final_project/server/controllers/userController.js">
+        <metrics statements="23" coveredstatements="23" conditionals="6" coveredconditionals="6" methods="7" coveredmethods="7"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="18" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="24" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="49" count="17" type="stmt"/>
+        <line num="60" count="17" type="stmt"/>
+        <line num="66" count="17" type="cond" truecount="2" falsecount="0"/>
+        <line num="67" count="1" type="stmt"/>
+        <line num="73" count="16" type="stmt"/>
+        <line num="77" count="9" type="stmt"/>
+        <line num="78" count="9" type="stmt"/>
+        <line num="92" count="1" type="stmt"/>
+        <line num="94" count="1" type="stmt"/>
+        <line num="100" count="1" type="stmt"/>
+        <line num="115" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="server.helpers">
+      <metrics statements="21" coveredstatements="21" conditionals="11" coveredconditionals="7" methods="6" coveredmethods="6"/>
+      <file name="bcrypt.js" path="/home/prmzk/Documents/Hacktiv/Phase_3/final_project/server/helpers/bcrypt.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="4" count="9" type="stmt"/>
+        <line num="5" count="9" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+      </file>
+      <file name="customError.js" path="/home/prmzk/Documents/Hacktiv/Phase_3/final_project/server/helpers/customError.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="23" type="stmt"/>
+        <line num="4" count="23" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+      </file>
+      <file name="dateCreator.js" path="/home/prmzk/Documents/Hacktiv/Phase_3/final_project/server/helpers/dateCreator.js">
+        <metrics statements="9" coveredstatements="9" conditionals="11" coveredconditionals="7" methods="1" coveredmethods="1"/>
+        <line num="2" count="4" type="cond" truecount="2" falsecount="3"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="6" count="4" type="cond" truecount="4" falsecount="0"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="10" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+      </file>
+      <file name="jwt.js" path="/home/prmzk/Documents/Hacktiv/Phase_3/final_project/server/helpers/jwt.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="8" count="42" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="server.middleware">
+      <metrics statements="51" coveredstatements="48" conditionals="16" coveredconditionals="14" methods="9" coveredmethods="9"/>
+      <file name="authentication.js" path="/home/prmzk/Documents/Hacktiv/Phase_3/final_project/server/middleware/authentication.js">
+        <metrics statements="16" coveredstatements="15" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="7" count="51" type="stmt"/>
+        <line num="8" count="51" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="9" type="stmt"/>
+        <line num="11" count="42" type="stmt"/>
+        <line num="12" count="42" type="stmt"/>
+        <line num="13" count="36" type="stmt"/>
+        <line num="15" count="36" type="cond" truecount="1" falsecount="1"/>
+        <line num="16" count="36" type="stmt"/>
+        <line num="17" count="36" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="24" count="6" type="stmt"/>
+        <line num="29" count="3" type="stmt"/>
+      </file>
+      <file name="authorization.js" path="/home/prmzk/Documents/Hacktiv/Phase_3/final_project/server/middleware/authorization.js">
+        <metrics statements="14" coveredstatements="14" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="7" count="8" type="stmt"/>
+        <line num="8" count="8" type="stmt"/>
+        <line num="9" count="8" type="stmt"/>
+        <line num="15" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="25" count="5" type="stmt"/>
+        <line num="29" count="3" type="stmt"/>
+      </file>
+      <file name="authorizationThread.js" path="/home/prmzk/Documents/Hacktiv/Phase_3/final_project/server/middleware/authorizationThread.js">
+        <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="15" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+      </file>
+      <file name="errorHandler.js" path="/home/prmzk/Documents/Hacktiv/Phase_3/final_project/server/middleware/errorHandler.js">
+        <metrics statements="9" coveredstatements="7" conditionals="6" coveredconditionals="5" methods="1" coveredmethods="1"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="42" type="cond" truecount="2" falsecount="0"/>
+        <line num="5" count="15" type="cond" truecount="1" falsecount="1"/>
+        <line num="7" count="15" type="stmt"/>
+        <line num="10" count="15" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="18" count="42" type="cond" truecount="2" falsecount="0"/>
+        <line num="19" count="27" type="stmt"/>
+      </file>
+    </package>
+    <package name="server.models">
+      <metrics statements="51" coveredstatements="48" conditionals="13" coveredconditionals="8" methods="13" coveredmethods="13"/>
+      <file name="comment.js" path="/home/prmzk/Documents/Hacktiv/Phase_3/final_project/server/models/comment.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+        <line num="27" count="3" type="stmt"/>
+      </file>
+      <file name="index.js" path="/home/prmzk/Documents/Hacktiv/Phase_3/final_project/server/models/index.js">
+        <metrics statements="19" coveredstatements="18" conditionals="7" coveredconditionals="5" methods="3" coveredmethods="3"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="14" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="26" count="15" type="cond" truecount="3" falsecount="0"/>
+        <line num="29" count="12" type="stmt"/>
+        <line num="30" count="12" type="stmt"/>
+        <line num="33" count="3" type="stmt"/>
+        <line num="34" count="12" type="cond" truecount="1" falsecount="1"/>
+        <line num="35" count="12" type="stmt"/>
+        <line num="39" count="3" type="stmt"/>
+        <line num="40" count="3" type="stmt"/>
+        <line num="42" count="3" type="stmt"/>
+      </file>
+      <file name="pet.js" path="/home/prmzk/Documents/Hacktiv/Phase_3/final_project/server/models/pet.js">
+        <metrics statements="11" coveredstatements="9" conditionals="6" coveredconditionals="3" methods="3" coveredmethods="3"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="39" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="42" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="45" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="52" count="3" type="stmt"/>
+        <line num="53" count="3" type="stmt"/>
+        <line num="55" count="3" type="stmt"/>
+      </file>
+      <file name="thread.js" path="/home/prmzk/Documents/Hacktiv/Phase_3/final_project/server/models/thread.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="49" count="3" type="stmt"/>
+        <line num="50" count="3" type="stmt"/>
+        <line num="51" count="3" type="stmt"/>
+        <line num="53" count="3" type="stmt"/>
+      </file>
+      <file name="user.js" path="/home/prmzk/Documents/Hacktiv/Phase_3/final_project/server/models/user.js">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="82" count="9" type="stmt"/>
+        <line num="88" count="3" type="stmt"/>
+        <line num="89" count="3" type="stmt"/>
+        <line num="90" count="3" type="stmt"/>
+        <line num="91" count="3" type="stmt"/>
+        <line num="93" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="server.routes">
+      <metrics statements="35" coveredstatements="35" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.js" path="/home/prmzk/Documents/Hacktiv/Phase_3/final_project/server/routes/index.js">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+      </file>
+      <file name="pet.js" path="/home/prmzk/Documents/Hacktiv/Phase_3/final_project/server/routes/pet.js">
+        <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+      </file>
+      <file name="thread.js" path="/home/prmzk/Documents/Hacktiv/Phase_3/final_project/server/routes/thread.js">
+        <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
